@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import SearchForm from '../components/SearchFrom';
-import Banner from '../components/Banner';
-import ChooseUs from '../components/ChooseUs';
-import BulkSms from '../components/BulkSms';
-import WhatWeDo from '../components/WhatWeDo';
-import WhatWeOffer from '../components/WhatWeOffer';
-import ClientSay from '../components/ClientSay';
-import CounterUp from '../components/CounterUp';
-import SmsTesting from '../components/SmsTesting';
-import PricingTable from '../components/PricingTable';
-// import SponsorSection from '../components/SponsorSection';
-import Blog from '../components/Blog';
-import Footer from '../components/Footer';
+
+const Header = React.lazy(() => import('../components/Header'));
+const SearchForm = React.lazy(() => import('../components/SearchFrom'));
+const Banner = React.lazy(() => import('../components/Banner'));
+const ChooseUs = React.lazy(() => import('../components/ChooseUs'));
+const BulkSms = React.lazy(() => import('../components/BulkSms'));
+const WhatWeDo = React.lazy(() => import('../components/WhatWeDo'));
+const WhatWeOffer = React.lazy(() => import('../components/WhatWeOffer'));
+const ClientSay = React.lazy(() => import('../components/ClientSay'));
+const CounterUp = React.lazy(() => import('../components/CounterUp'));
+const SmsTesting = React.lazy(() => import('../components/SmsTesting'));
+const PricingTable = React.lazy(() => import('../components/PricingTable'));
+const Blog = React.lazy(() => import('../components/Blog'));
+const Footer = React.lazy(() => import('../components/Footer'));
 
 export default class Homepage extends Component {
     render() {
         return (
-            <>
+            <React.Fragment>
                 <Header />
                 <SearchForm />
                 <Banner />
@@ -29,10 +29,9 @@ export default class Homepage extends Component {
                 <CounterUp />
                 <SmsTesting />
                 <PricingTable />
-                {/* <SponsorSection /> */}
                 <Blog />
                 <Footer />
-            </>
+            </React.Fragment>
         );
     }
 }

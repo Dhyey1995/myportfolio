@@ -1,15 +1,29 @@
 import React, { Component } from 'react';
 
-import { NavLink } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 export default class Breadcrumb extends Component {
+
+    state = {
+        redirect: false
+    }
+
+    redirectToTarget = () => { 
+        this.setState({
+            redirect:true,
+        });
+    }
+
     render() {
+        if (this.state.redirect) {
+            return <Redirect to='/' />;
+        }
         return (
             <div className="breadcrumb-section">
                 <div className="container">
                     <ul className="breadcrumb">
                         <li>
-                            <NavLink to={'/'}>Home</NavLink>
+                            <a onClick={this.redirectToTarget}>Home</a>
                         </li>
                         <li>
                             {this.props.pageName}

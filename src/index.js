@@ -8,14 +8,12 @@ import { BrowserRouter, Switch } from "react-router-dom";
 
 ReactDOM.render(
 
-<BrowserRouter>
-    <Switch>
+    <BrowserRouter>
         <App />
-    </Switch>
-</BrowserRouter>
+    </BrowserRouter>
 
 
-, document.getElementById('root'));
+    , document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
