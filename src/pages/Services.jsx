@@ -6,7 +6,13 @@ const Breadcrumb = React.lazy(() => import('../components/Breadcrumb'));
 const WhatWeDo = React.lazy(() => import('../components/WhatWeDo'));
 const Footer = React.lazy(() => import('../components/Footer'));
 
+
+
+
 export default class Services extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
     render() {
         return (
             <React.Fragment>

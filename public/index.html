@@ -22,9 +22,6 @@
             <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/css/ajax-loader.gif" alt="ajax-loader">
         </div>
     </div>
-    <a href="#0" class="scrollToTop">
-        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/rocket.png" alt="rocket">
-    </a>
     <div id="root"></div>
     <script src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/js/jquery-3.3.1.min.js"></script>
     <script src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/js/modernizr-3.6.0.min.js"></script>
@@ -39,5 +36,8 @@
     <script src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/js/counterup.min.js"></script>
     <script src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/js/nice-select.js"></script>
     <script src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/js/main.js"></script>
+    <script>
+      javascript:(function(){document.getElementsByTagName("body")[0].addEventListener("wheel",function (event) {if (event.target.classList.contains('ace_content')) {return;}event.stopPropagation();}, true);})();
+    </script>
   </body>
 </html>

@@ -10,6 +10,9 @@ const Blog = React.lazy(() => import('../components/Blog'));
 const Footer = React.lazy(() => import('../components/Footer'));
 
 export default class AboutPage extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
     render() {
         return (
             <React.Fragment>

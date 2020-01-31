@@ -8,6 +8,9 @@ import AddressInfo from '../components/AddressInfo';
 import Footer from '../components/Footer';
 
 export default class ContactPage extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
     render() {
         return (
             <>

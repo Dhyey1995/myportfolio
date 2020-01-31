@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom';
+
 export default class Blog extends Component {
     render() {
         return (
@@ -14,9 +16,9 @@ export default class Blog extends Component {
                             <div className="post-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="post-item">
                                     <div className="post-thumb">
-                                        <a href="blog.html">
+                                        <Link to="/projects">
                                             <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog01.jpg" alt="blog" />
-                                        </a>
+                                        </Link>
                                         <div className="post-date">
                                             <span>22</span>
                                             <span>dec</span>
@@ -36,9 +38,9 @@ export default class Blog extends Component {
                             <div className="post-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="post-item">
                                     <div className="post-thumb">
-                                        <a href="blog.html">
+                                        <Link to="/projects">
                                             <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog02.jpg" alt="blog" />
-                                        </a>
+                                        </Link>
                                         <div className="post-date">
                                             <span>28</span>
                                             <span>dec</span>
@@ -58,9 +60,9 @@ export default class Blog extends Component {
                             <div className="post-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="post-item">
                                     <div className="post-thumb">
-                                        <a href="blog.html">
+                                        <Link to="/projects">
                                             <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog03.jpg" alt="blog" />
-                                        </a>
+                                        </Link>
                                         <div className="post-date">
                                             <span>31</span>
                                             <span>dec</span>
@@ -68,10 +70,10 @@ export default class Blog extends Component {
                                     </div>
                                     <div className="post-content">
                                         <h4 className="title">
-                                            <a href="blog.html">Condimentum magni velit mperdiet</a>
+                                            <Link to="/projects">Condimentum magni velit mperdiet</Link>
                                         </h4>
                                         <p>pede augue peltesqvolpegesed sed. Et neque rhonctritiqultieam nunc, vitae consectetueMauorbi aenean non maecenas</p>
-                                        <a className="read-more" href="blog-details.html">Read More <i className="fas fa-caret-right" /></a>
+                                        <Link className="read-more" to="/projects">Read More <i className="fas fa-caret-right" /></Link>
                                     </div>
                                 </div>
                             </div>

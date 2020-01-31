@@ -107,22 +107,6 @@
         element.siblings('li').find('ul').slideUp(300, "swing");
       }
     })
-    // Scroll To Top 
-    var scrollTop = $(".scrollToTop");
-    $(window).on('scroll', function () {
-      if ($(this).scrollTop() < 500) {
-        scrollTop.removeClass("active");
-      } else {
-        scrollTop.addClass("active");
-      }
-    });
-    //Click event to scroll to top
-    $('.scrollToTop').on('click', function () {
-      $('html, body').animate({
-        scrollTop: 0
-      }, 500);
-      return false;
-    });
     // Header Sticky Here
     var headerOne = $(".header-bottom");
     $(window).on('scroll', function () {

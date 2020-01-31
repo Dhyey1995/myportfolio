@@ -8,6 +8,9 @@ import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 
 export default class Projects extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
     render() {
         return (
             <>
