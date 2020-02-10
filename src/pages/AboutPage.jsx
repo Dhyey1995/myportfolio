@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
-const Header = React.lazy(() => import('../components/Header'));
-const PageHead = React.lazy(() => import('../components/PageHead'));
-const Breadcrumb = React.lazy(() => import('../components/Breadcrumb'));
-const BulkSms = React.lazy(() => import('../components/BulkSms'));
-const SmsTesting = React.lazy(() => import('../components/SmsTesting'));
-const ClientSay = React.lazy(() => import('../components/ClientSay'));
-const Blog = React.lazy(() => import('../components/Blog'));
-const Footer = React.lazy(() => import('../components/Footer'));
+import Header from '../components/Header';
+import PageHead from '../components/PageHead';
+import WhatWeOffer from '../components/WhatWeOffer';
+import Breadcrumb from '../components/Breadcrumb';
+import BulkSms from '../components/BulkSms';
+import SmsTesting from '../components/SmsTesting';
+import ClientSay from '../components/ClientSay';
+import Blog from '../components/Blog';
+import Footer from '../components/Footer';
 
 export default class AboutPage extends Component {
     componentDidMount() {
@@ -19,7 +20,7 @@ export default class AboutPage extends Component {
                 <Header />
                 <PageHead headValue={'About Me'} />
                 <Breadcrumb pageName={'About'} />
-                <BulkSms />
+                <WhatWeOffer />
                 <SmsTesting />
                 <ClientSay />
                 <Blog />

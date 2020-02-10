@@ -5,6 +5,7 @@ export default class BulkSms extends Component {
         return (
             <section className="bulk-sms padding-top">
                 <div className="container">
+                <h2 className="title">test your SMS delivery</h2>
                     <div className="row flex-wrap-reverse align-items-center">
                         <div className="col-lg-6">
                             <div className="bulk-content text-center text-sm-left wow fadeIn" data-wow-delay=".3s">

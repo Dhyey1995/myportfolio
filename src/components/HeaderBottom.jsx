@@ -27,6 +27,9 @@ export default class HeaderBottom extends Component {
                                 <NavLink to={'/service'}>Services</NavLink>
                             </li>
                             <li>
+                                <NavLink to={'/blog'}>Blog</NavLink>
+                            </li>
+                            <li>
                                 <NavLink to={'/contact'}>Contact</NavLink>
                             </li>
                         </ul>

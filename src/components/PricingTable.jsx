@@ -13,7 +13,7 @@ export default class PricingTable extends Component {
                         <div className="col-md-6 col-lg-4">
                             <div className="price-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="price-header">
-                                    <span className="category">masking SMS</span>
+                                    <span className="category">BASIC</span>
                                     <h3 className="sub-title">0.33$<span>sms</span></h3>
                                 </div>
                                 <ul>
@@ -41,7 +41,7 @@ export default class PricingTable extends Component {
                         <div className="col-md-6 col-lg-4">
                             <div className="price-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="price-header">
-                                    <span className="category">non-masking SMS</span>
+                                    <span className="category">STANDARD</span>
                                     <h3 className="sub-title">0.23$<span>sms</span></h3>
                                 </div>
                                 <ul>
@@ -69,7 +69,7 @@ export default class PricingTable extends Component {
                         <div className="col-md-6 col-lg-4">
                             <div className="price-item wow fadeInUp" data-wow-delay=".3s">
                                 <div className="price-header">
-                                    <span className="category">voice message</span>
+                                    <span className="category">PREMIUM</span>
                                     <h3 className="sub-title">0.40$<span>sms</span></h3>
                                 </div>
                                 <ul>

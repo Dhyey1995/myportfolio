@@ -5,14 +5,10 @@ export default class SmsTesting extends Component {
         return (
             <section className="sms-testing padding-bottom padding-top bg-ash">
                 <div className="container">
-                    <div className="section-header wow fadeInUp">
-                        <span className="cate">sms testing</span>
-                        <h2 className="title">test your SMS delivery</h2>
-                    </div>
                     <div className="row">
                         <div className="col-md-6">
                             <div className="testing-item wow fadeInUp" data-wow-delay=".3s">
-                                <h4 className="title">send us your SMS text</h4>
+                                <h4 className="title">How can I help you contact me?</h4>
                                 <form className="testing-form">
                                     <div className="form-group">
                                         <input type="text" placeholder="Country" />
@@ -35,18 +31,7 @@ export default class SmsTesting extends Component {
                         <div className="col-md-6">
                             <div className="testing-item wow fadeInUp" data-wow-delay=".3s">
                                 <h4 className="title">about our privacy</h4>
-                                <p>Menenatis malesuada at vestibulum, proin at nudit iaculis nullam ut, massa hac, arcu adipiscing in vel ac amllicitudin tempus dictum donec lorem libero. Turpis integpendisse felis, consectetuer odio, volutpat consectetuer erat tortor over hhead to do comeing </p>
-                                <ul className="bullet-list">
-                                    <li>
-                                        Vestibulum id rhoncus tempus
-                                    </li>
-                                    <li>
-                                        Tellus fermentum a aenean
-                                    </li>
-                                    <li>
-                                        Pulvinar cursus imperdiet
-                                    </li>
-                                </ul>
+                                <p>A developer's role is to combine design and business logic to achieve a user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience that leads to meeting business goals.</p>
                             </div>
                         </div>
                     </div>

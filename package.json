@@ -1,6 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
+  "homepage": "http://dhyeyrathod.tk",
   "private": true,
   "dependencies": {
     "jquery-form-validator": "^2.3.79",

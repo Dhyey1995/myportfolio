@@ -13,14 +13,14 @@ export default class ContactPage extends Component {
     }
     render() {
         return (
-            <>
+            <React.Fragment>
                 <Header />
                 <PageHead headValue={'Contact us'} />
                 <Breadcrumb pageName={'Contact us'} />
                 <ContactUsForm />
                 <AddressInfo />
                 <Footer />
-            </>
+            </React.Fragment>
         );
     }
 }

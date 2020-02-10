@@ -20,21 +20,7 @@ export default class ClientSay extends Component {
                                         <h4 className="title"><a href="#0">fahad bin foyej</a></h4>
                                         <span>Business Man</span>
                                         <blockquote>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod teodunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risuodo viverra maecenas accumsan lacus vel facilisis.
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="swiper-slide">
-                                <div className="client-item">
-                                    <div className="client-thumb">
-                                        <a href="#0"><img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/client/client03.jpg" alt="client" /></a>
-                                    </div>
-                                    <div className="client-content">
-                                        <h4 className="title"><a href="#0">Abu Raihan Rafuj</a></h4>
-                                        <span>Business Man</span>
-                                        <blockquote>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod teodunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risuodo viverra maecenas accumsan lacus vel facilisis.
+                                            Dhyey Rathod is an excellent web designer and faultless technician. He’s a pleasure to work with, great value for money and will always go the extra mile when necessary.
                                         </blockquote>
                                     </div>
                                 </div>
