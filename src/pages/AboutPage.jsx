@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import PageHead from '../components/PageHead';
 import WhatWeOffer from '../components/WhatWeOffer';
 import Breadcrumb from '../components/Breadcrumb';
-import BulkSms from '../components/BulkSms';
 import SmsTesting from '../components/SmsTesting';
 import ClientSay from '../components/ClientSay';
 import Blog from '../components/Blog';

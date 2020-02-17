@@ -10,10 +10,10 @@ export default class HeaderTop extends Component {
                             <div className="col-md-8">
                                 <ul>
                                     <li className="mr-3">
-                                        <a href="Tel:839394845"><i className="fas fa-phone-square" />+9999 - 222 - 333</a>
+                                        <a href="Tel:09967313968"><i className="fas fa-phone-square" />+91 9967313968</a>
                                     </li>
                                     <li>
-                                        <a href="Mailto:messon@gmail.com"><i className="fas fa-envelope" />messon@gmail.com</a>
+                                        <a href="Mailto:dhyeyrathod111@gmail.com"><i className="fas fa-envelope" />dhyeyrathod111@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
@@ -40,14 +40,6 @@ export default class HeaderTop extends Component {
                                         </a>
                                     </li>
                                 </ul>
-                                <div className="select-area d-none d-md-block">
-                                    <select className="select-bar">
-                                        <option value={1}>English</option>
-                                        <option value={2}>Bangla</option>
-                                        <option value={3}>Hindi</option>
-                                        <option value={4}>Urdu</option>
-                                    </select>
-                                </div>
                             </div>
                         </div>
                     </div>

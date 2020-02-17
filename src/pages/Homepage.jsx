@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import SearchForm from '../components/SearchFrom';
 import Banner from '../components/Banner';
-import BulkSms from '../components/BulkSms';
 import WhatWeDo from '../components/WhatWeDo';
 import WhatWeOffer from '../components/WhatWeOffer';
 import ClientSay from '../components/ClientSay';

@@ -10,7 +10,8 @@ export default class HeaderBottom extends Component {
                     <div className="header-area">
                         <div className="logo">
                             <NavLink to={'/'}>
-                                <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/logo/logo01.png" alt="logo" />
+                                {/*<img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/logo/logo01.png" alt="logo" />*/}
+                                <h2>Dhyey</h2>
                             </NavLink>
                         </div>
                         <ul className="menu">
@@ -41,7 +42,7 @@ export default class HeaderBottom extends Component {
                         <div className="select-bar-bar">
                             <i className="fas fa-ellipsis-v" />
                         </div>
-                        <div className="d-flex select-career justify-content-end">
+                        {/*<div className="d-flex select-career justify-content-end">
                             <select className="select-bar d-md-none">
                                 <option value={1}>English</option>
                                 <option value={2}>Bangla</option>
@@ -51,7 +52,7 @@ export default class HeaderBottom extends Component {
                             <a href="#0" className="search-bar">
                                 <i className="flaticon-magnifying-glass" />
                             </a>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
