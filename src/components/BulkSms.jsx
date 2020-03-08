@@ -17,7 +17,7 @@ export default class BulkSms extends Component {
                         </div>
                         <div className="col-lg-6">
                             <div className="bulk-thumb wow slideInRight">
-                                <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/bulk/bulk01.png" alt="bulk" />
+                                <img src="/assets/images/bulk/bulk01.png" alt="bulk" />
                             </div>
                         </div>
                     </div>

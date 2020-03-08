@@ -14,7 +14,7 @@ export default class ClientSay extends Component {
                             <div className="swiper-slide">
                                 <div className="client-item">
                                     <div className="client-thumb">
-                                        <a href="#0"><img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/client/client02.jpg" alt="client" /></a>
+                                        <a href="#0"><img src="/assets/images/client/client02.jpg" alt="client" /></a>
                                     </div>
                                     <div className="client-content">
                                         <h4 className="title"><a href="#0">fahad bin foyej</a></h4>

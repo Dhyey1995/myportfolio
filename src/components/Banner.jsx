@@ -21,9 +21,9 @@ export default class Banner extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="maps-shape bg_img bg-contain" data-background="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/banner/banner-bg01.png" />
+                <div className="maps-shape bg_img bg-contain" data-background="assets/images/banner/banner-bg01.png" />
                 <div className="shape-thumb">
-                    {/*<img className="wow slideInUp" data-wow-delay=".7s" src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/banner/banner-shape01.png" alt="banner" />*/}
+                    {/*<img className="wow slideInUp" data-wow-delay=".7s" src="assets/images/banner/banner-shape01.png" alt="banner" />*/}
                 </div>
             </section>
         );

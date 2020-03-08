@@ -10,7 +10,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="#0">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case01.jpg" alt="case" />
+                                        <img src="/assets/images/case/case01.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -25,7 +25,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="#0">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case02.jpg" alt="case" />
+                                        <img src="/assets/images/case/case02.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -40,7 +40,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case03.jpg" alt="case" />
+                                        <img src="/assets/images/case/case03.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -55,7 +55,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case04.jpg" alt="case" />
+                                        <img src="/assets/images/case/case04.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -70,7 +70,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case05.jpg" alt="case" />
+                                        <img src="/assets/images/case/case05.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -85,7 +85,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case06.jpg" alt="case" />
+                                        <img src="/assets/images/case/case06.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -100,7 +100,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case07.jpg" alt="case" />
+                                        <img src="/assets/images/case/case07.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -115,7 +115,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case08.jpg" alt="case" />
+                                        <img src="/assets/images/case/case08.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">
@@ -130,7 +130,7 @@ export default class ProjectSection extends Component {
                             <div className="case-item">
                                 <div className="case-thumb">
                                     <a href="case-details.html">
-                                        <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/case/case09.jpg" alt="case" />
+                                        <img src="/assets/images/case/case09.jpg" alt="case" />
                                     </a>
                                 </div>
                                 <div className="case-content">

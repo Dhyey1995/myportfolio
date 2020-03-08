@@ -26,7 +26,7 @@ export default class WhatWeOffer extends Component {
                         </div>
                         <div className="col-lg-6">
                             <div className="right-side-offer wow slideInRight" data-wow-delay=".3s">
-                                <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/offer/offer01.png" alt="offer" />
+                                <img src="/assets/images/offer/offer01.png" alt="offer" />
                             </div>
                         </div>
                     </div>

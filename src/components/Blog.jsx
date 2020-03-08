@@ -17,7 +17,7 @@ export default class Blog extends Component {
                                 <div className="post-item">
                                     <div className="post-thumb">
                                         <Link to="/projects">
-                                            <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog01.jpg" alt="blog" />
+                                            <img src="assets/images/blog/blog01.jpg" alt="blog" />
                                         </Link>
                                         <div className="post-date">
                                             <span>22</span>
@@ -39,7 +39,7 @@ export default class Blog extends Component {
                                 <div className="post-item">
                                     <div className="post-thumb">
                                         <Link to="/projects">
-                                            <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog02.jpg" alt="blog" />
+                                            <img src="/assets/images/blog/blog02.jpg" alt="blog" />
                                         </Link>
                                         <div className="post-date">
                                             <span>28</span>
@@ -61,7 +61,7 @@ export default class Blog extends Component {
                                 <div className="post-item">
                                     <div className="post-thumb">
                                         <Link to="/projects">
-                                            <img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/blog/blog03.jpg" alt="blog" />
+                                            <img src="/assets/images/blog/blog03.jpg" alt="blog" />
                                         </Link>
                                         <div className="post-date">
                                             <span>31</span>

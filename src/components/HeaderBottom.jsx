@@ -10,7 +10,7 @@ export default class HeaderBottom extends Component {
                     <div className="header-area">
                         <div className="logo">
                             <NavLink to={'/'}>
-                                {/*<img src="https://dhyeyportfolioimages.s3.ap-south-1.amazonaws.com/assets/images/logo/logo01.png" alt="logo" />*/}
+                                {/*<img src="/assets/images/logo/logo01.png" alt="logo" />*/}
                                 <h2>Dhyey</h2>
                             </NavLink>
                         </div>
