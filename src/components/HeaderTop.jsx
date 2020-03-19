@@ -10,10 +10,10 @@ export default class HeaderTop extends Component {
                             <div className="col-md-8">
                                 <ul>
                                     <li className="mr-3">
-                                        <a href="Tel:09967313968"><i className="fas fa-phone-square" />+91 9967313968</a>
+                                        <a href="Tel:00 00000 00000"><i className="fas fa-phone-square" />+91 0000000000</a>
                                     </li>
                                     <li>
-                                        <a href="Mailto:dhyeyrathod111@gmail.com"><i className="fas fa-envelope" />dhyeyrathod111@gmail.com</a>
+                                        <a href="Mailto:dhyeyrathod111@gmail.com"><i className="fas fa-envelope" />testing@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>

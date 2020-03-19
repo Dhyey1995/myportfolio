@@ -39,20 +39,6 @@ export default class HeaderBottom extends Component {
                             <span />
                             <span />
                         </div>
-                        <div className="select-bar-bar">
-                            <i className="fas fa-ellipsis-v" />
-                        </div>
-                        {/*<div className="d-flex select-career justify-content-end">
-                            <select className="select-bar d-md-none">
-                                <option value={1}>English</option>
-                                <option value={2}>Bangla</option>
-                                <option value={3}>Hindi</option>
-                                <option value={4}>Urdu</option>
-                            </select>
-                            <a href="#0" className="search-bar">
-                                <i className="flaticon-magnifying-glass" />
-                            </a>
-                        </div>*/}
                     </div>
                 </div>
             </div>

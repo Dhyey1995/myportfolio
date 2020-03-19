@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// header-bar d-lg-none
+
 import Header from '../components/Header';
 import SearchForm from '../components/SearchFrom';
 import Banner from '../components/Banner';
