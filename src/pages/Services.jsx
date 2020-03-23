@@ -19,7 +19,7 @@ export default class Services extends Component {
                 <Header />
                 <PageHead headValue={'Our Services'} />
                 <Breadcrumb pageName={'Services'} />
-                <WhatWeDo />
+                <WhatWeDo limit={'ALL'}/>
                 <Footer />
             </React.Fragment>
         );

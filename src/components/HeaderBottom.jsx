@@ -1,8 +1,24 @@
 import React, { Component } from 'react';
-
 import { NavLink } from 'react-router-dom';
 
 export default class HeaderBottom extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            menu_active:false,
+        }
+    }
+    handelOnclick = () => {
+        if(this.state.menu_active){
+            this.setState({
+                menu_active:false,
+            });
+        } else {
+            this.setState({
+                menu_active:true,
+            });
+        }
+    }
     render() {
         return (
             <div className="header-bottom">
@@ -10,11 +26,10 @@ export default class HeaderBottom extends Component {
                     <div className="header-area">
                         <div className="logo">
                             <NavLink to={'/'}>
-                                {/*<img src="/assets/images/logo/logo01.png" alt="logo" />*/}
                                 <h2>Dhyey</h2>
                             </NavLink>
                         </div>
-                        <ul className="menu">
+                        <ul className={this.state.menu_active ? 'menu active' : 'menu' }>
                             <li>
                                 <NavLink to={'/'}>Home</NavLink>
                             </li>
@@ -34,7 +49,7 @@ export default class HeaderBottom extends Component {
                                 <NavLink to={'/contact'}>Contact</NavLink>
                             </li>
                         </ul>
-                        <div className="header-bar d-lg-none">
+                        <div className="header-bar d-lg-none" onClick={this.handelOnclick}>
                             <span />
                             <span />
                             <span />

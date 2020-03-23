@@ -26,7 +26,7 @@ export default class Homepage extends Component {
                 <Header />
                 <SearchForm />
                 <Banner />
-                <WhatWeDo />
+                <WhatWeDo  limit={3}/>
                 <WhatWeOffer />
                 <ClientSay />
                 <CounterUp />

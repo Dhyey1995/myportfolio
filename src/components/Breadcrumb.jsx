@@ -13,7 +13,10 @@ export default class Breadcrumb extends Component {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            {this.props.pageName}
+                            <Link to={'#'}>{this.props.pageName}</Link>
+                        </li>
+                        <li>
+                            {this.props.pageNameTwo}
                         </li>
                     </ul>
                 </div>

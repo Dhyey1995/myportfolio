@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+
 import Header from '../components/Header';
 import PageHead from '../components/PageHead';
 import Breadcrumb from '../components/Breadcrumb';
-import ProjectSection from '../components/ProjectSection';
+import Projectinfo from '../components/Projectinfo';
 import CounterUp from '../components/CounterUp';
-import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 
-export default class Projects extends Component {
+export default class ProjectDetails extends Component {
     componentDidMount() {
         window.scrollTo(0,0);
     }
@@ -15,11 +15,10 @@ export default class Projects extends Component {
         return (
             <React.Fragment>
                 <Header />
-                <PageHead headValue={'My projects'} />
-                <Breadcrumb pageName={'service'} />
-                <ProjectSection />  
+                <PageHead headValue={this.props.match.params.project_name} />  
+                <Breadcrumb pageName={'Projects'} pageNameTwo={this.props.match.params.project_name} />
+                <Projectinfo project_id={this.props.match.params.project_id} />
                 <CounterUp />
-                <Blog />
                 <Footer />
             </React.Fragment>
         );
