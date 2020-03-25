@@ -11,11 +11,7 @@ import Blog from './pages/Blog';
 import ProjectDetails from './pages/ProjectDetails';
 import SkillsDetailsPage from './pages/SkillsDetailsPage';
 
-
-
-
 export default class App extends Component {
-
     render() {
         return (
             <section>
@@ -25,7 +21,7 @@ export default class App extends Component {
                         <Route exact path="/about" component={AboutPage} />
                         <Route exact path="/projects" component={Projetcs} />
                         <Route exact path="/service" component={Services} />
-                        <Route exact path="/blog" component = {Blog} />
+                        <Route exact path="/blog" component={Blog} />
                         <Route exact path="/contact" component={ContactPage} />
                         <Route path="/:project_name/details/:project_id" component={ProjectDetails} />
                         <Route path="/:skill_name/skills_details/:skill_id" component={SkillsDetailsPage} />

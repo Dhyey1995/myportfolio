@@ -5041,3 +5041,7 @@ div[class*="position"] .details .area {
     transform: translate(-50%, -50%) rotate(-360deg); } }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+.validation_error { color : red }
