@@ -10,6 +10,7 @@ import ContactPage from './pages/ContactPage';
 import Blog from './pages/Blog';
 import ProjectDetails from './pages/ProjectDetails';
 import SkillsDetailsPage from './pages/SkillsDetailsPage';
+import Thankyou from './pages/Thankyou';
 
 export default class App extends Component {
     render() {
@@ -23,6 +24,7 @@ export default class App extends Component {
                         <Route exact path="/service" component={Services} />
                         <Route exact path="/blog" component={Blog} />
                         <Route exact path="/contact" component={ContactPage} />
+                        <Route exact path="/thankyou" component={Thankyou} />
                         <Route path="/:project_name/details/:project_id" component={ProjectDetails} />
                         <Route path="/:skill_name/skills_details/:skill_id" component={SkillsDetailsPage} />
                     </Switch>

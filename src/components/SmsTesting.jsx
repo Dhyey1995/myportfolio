@@ -35,7 +35,7 @@ export default class SmsTesting extends Component {
                         });
                         setTimeout(() => {
                             this.setState({ redirect: true });
-                        }, 1000);
+                        }, 2000);
                     } else {
                         this.setState({
                             alert_display: true,
@@ -59,14 +59,10 @@ export default class SmsTesting extends Component {
         });
     }
 
-    renderRedirect = () => {
-        console.log(this.state.redirect);
-    }
-
     render() {
         return (
             <React.Fragment>
-                {this.state.redirect ? <Redirect to='/contact' /> : ''} 
+                {this.state.redirect ? <Redirect to='/thankyou' /> : ''}
                 <Loading loading_status={this.state.loading_status} />
                 <section className="sms-testing padding-bottom padding-top bg-ash">
                     <div className="container">
