@@ -7,11 +7,11 @@ export default class ProjectSection extends Component {
         super(props);
         this.state = {
             project: [],
-            api_url_image:'http://localhost/dhyey_rathod/portfolioapi/storage/app/',
+            api_url_image:'https://angelajeff.in/portfolio_api/storage/app/',
         }
     }
     componentDidMount() {
-        Axios.get('http://localhost/dhyey_rathod/portfolioapi/api/project')
+        Axios.get('https://angelajeff.in/portfolio_api/api/project')
             .then(response => {
                 this.setState({
                     project: response.data.data,

@@ -24,7 +24,7 @@ export default class SmsTesting extends Component {
         });
         this.form.onformsubmit = (event) => {
             this.setState({ loading_status: true });
-            Axios.post('http://localhost/dhyey_rathod/portfolioapi/api/contactus', this.state)
+            Axios.post('https://angelajeff.in/portfolio_api/api/contactus', this.state)
                 .then((response) => {
                     this.setState({ loading_status: false });
                     if (response.data.status == 'T') {

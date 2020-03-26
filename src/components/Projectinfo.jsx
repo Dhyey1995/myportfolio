@@ -6,12 +6,12 @@ export default class Projectinfo extends Component {
         super(props);
         this.state = {
             project: [],
-            api_url_image: 'http://localhost/dhyey_rathod/portfolioapi/storage/app/',
+            api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
             project_id: atob(this.props.project_id),
         }
     }
     componentDidMount() {
-        Axios.get('http://localhost/dhyey_rathod/portfolioapi/api/project/' + this.state.project_id)
+        Axios.get('https://angelajeff.in/portfolio_api/api/project/' + this.state.project_id)
             .then(response => {
                 this.setState({
                     project: response.data,

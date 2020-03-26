@@ -10,7 +10,7 @@ export default class SkillsDetails extends Component {
         }
     }
     componentDidMount() {
-        Axios.get('http://localhost/dhyey_rathod/portfolioapi/api/skill/' + this.state.skill_id)
+        Axios.get('https://angelajeff.in/portfolio_api/api/skill/' + this.state.skill_id)
             .then(response => {
                 this.setState({
                     skills: response.data,

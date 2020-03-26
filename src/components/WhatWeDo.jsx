@@ -10,7 +10,7 @@ export default class WhatWeDo extends Component {
         }
     }
     componentDidMount() {
-        Axios.get('http://localhost/dhyey_rathod/portfolioapi/api/skill/limit-' + this.props.limit)
+        Axios.get('https://angelajeff.in/portfolio_api/api/skill/limit-' + this.props.limit)
             .then(response => {
                 this.setState({
                     skills: response.data.data,
