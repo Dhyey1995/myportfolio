@@ -19,7 +19,7 @@ export default class Projects extends Component {
                 <Breadcrumb pageName={'service'} />
                 <ProjectSection />  
                 <CounterUp />
-                <Blog />
+                {/* <Blog /> */}
                 <Footer />
             </React.Fragment>
         );

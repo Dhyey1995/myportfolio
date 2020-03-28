@@ -20,9 +20,9 @@ export default class AboutPage extends Component {
                 <PageHead headValue={'About Me'} />
                 <Breadcrumb pageName={'About'} />
                 <WhatWeOffer />
-                <SmsTesting />
                 <ClientSay />
-                <Blog />
+                <SmsTesting />
+                {/* <Blog />     */}    
                 <Footer />
             </React.Fragment>
         );

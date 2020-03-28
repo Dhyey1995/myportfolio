@@ -26,12 +26,12 @@ export default class Homepage extends Component {
                 <Header />
                 <SearchForm />
                 <Banner />
-                <WhatWeDo  limit={3}/>
                 <WhatWeOffer />
+                <WhatWeDo  limit={3}/>
                 <ClientSay />
                 <CounterUp />
-                <SmsTesting />
-                <PricingTable />
+                {/* <SmsTesting /> */}
+                {/* <PricingTable /> */}
                 <Blog />
                 <Footer />
             </React.Fragment>

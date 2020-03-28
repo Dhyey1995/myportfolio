@@ -12,7 +12,7 @@ export default class Banner extends Component {
                         </span>
                         <h1 className="title">I design and code beautifully simple things, and I love what I do.</h1>
                         <div className="video-button-group">
-                            <Link to="/contact" className="custom-button active">contact to expert</Link>
+                            <Link to="/contact" className="custom-button active">Contact me</Link>
                             <div className="v-button">
                                 <a data-rel="lightcase:myCollection" href="https://www.youtube.com/embed/GT6-H4BRyqQ" className="video-button"><i className="flaticon-play-button" /></a>
                             </div>
@@ -23,7 +23,7 @@ export default class Banner extends Component {
                 </div>
                 <div className="maps-shape bg_img bg-contain" data-background="assets/images/banner/banner-bg01.png" />
                 <div className="shape-thumb">
-                    {/*<img className="wow slideInUp" data-wow-delay=".7s" src="assets/images/banner/banner-shape01.png" alt="banner" />*/}
+                    <img className="wow slideInUp" data-wow-delay=".7s" src="/assets/images/banner/banner-shape01.png" alt="banner" />
                 </div>
             </section>
         );
