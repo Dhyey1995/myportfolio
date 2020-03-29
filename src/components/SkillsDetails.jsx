@@ -6,6 +6,7 @@ export default class SkillsDetails extends Component {
         super(props);
         this.state = {
             skills: [],
+            api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
             skill_id: atob(this.props.skills_data.skill_id),
         }
     }
@@ -18,13 +19,17 @@ export default class SkillsDetails extends Component {
             });
     }
     render() {
+        const image_style = {
+            width: 684,
+            height: 494
+        };
         return (
-            <section className="overview-four-section padding-bottom">
+            <section className="overview-four-section padding-bottom padding-top">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="overview-thumb text-right">
-                                <img src="/assets/images/service/voice-message03.png" alt="overview-thumb" />
+                                <img style={image_style} src={this.state.api_url_image + this.state.skills.image} alt="overview-thumb" />
                             </div>
                         </div>
                         <div className="col-lg-6">

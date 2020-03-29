@@ -1031,7 +1031,7 @@ header .list {
 
 .header-top {
   font-size: 16px;
-  padding: 15px 0; }
+  padding: 5px 0; }
   .header-top ul li {
     padding: 5px; }
     .header-top ul li a i {
@@ -2640,7 +2640,7 @@ ul.filter {
       padding: 120px 0; } }
   @media (min-width: 768px) {
     .hero-area {
-      padding: 135px 0; } }
+      padding: 80px 0; } }
   .hero-area .title {
     font-size: 30px;
     color: #ffffff;
@@ -3009,7 +3009,9 @@ ul.filter {
       margin: 0; }
 
 h4.title {
-  text-transform: capitalize; }
+  text-transform: capitalize; 
+  text-align: center;
+}
 
 .cate {
   text-transform: uppercase;
@@ -3364,7 +3366,7 @@ ul.bullet-list {
       text-transform: capitalize;
       width: calc(100% - 40px); }
   .faq-wrapper .faq-item .faq-content {
-    padding: 10px 0 40px;
+    padding: 10px 50px 40px;
     display: none; }
     .faq-wrapper .faq-item .faq-content p {
       max-width: 715px; }
@@ -5042,6 +5044,8 @@ div[class*="position"] .details .area {
 
 /*# sourceMappingURL=main.css.map */
 
+.faq-content {padding: 40px}
 
+.faq-title { text-align: left;padding: 10px; }
 
 .validation_error { color : red }

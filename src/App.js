@@ -11,6 +11,7 @@ import Blog from './pages/Blog';
 import ProjectDetails from './pages/ProjectDetails';
 import SkillsDetailsPage from './pages/SkillsDetailsPage';
 import Thankyou from './pages/Thankyou';
+import ResumePage from './pages/ResumePage';
 
 export default class App extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class App extends Component {
                         <Route exact path="/blog" component={Blog} />
                         <Route exact path="/contact" component={ContactPage} />
                         <Route exact path="/thankyou" component={Thankyou} />
+                        <Route exact path="/resume" component={ResumePage} />
                         <Route path="/:project_name/details/:project_id" component={ProjectDetails} />
                         <Route path="/:skill_name/skills_details/:skill_id" component={SkillsDetailsPage} />
                     </Switch>
