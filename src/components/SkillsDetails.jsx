@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 export default class SkillsDetails extends Component {
     constructor(props) {
@@ -24,23 +25,31 @@ export default class SkillsDetails extends Component {
             height: 494
         };
         return (
-            <section className="overview-four-section padding-bottom padding-top">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="overview-thumb text-right">
-                                <img style={image_style} src={this.state.api_url_image + this.state.skills.image} alt="overview-thumb" />
+            <React.Fragment>
+                <section className="overview-four-section padding-bottom padding-top">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="overview-thumb text-right">
+                                    <img style={image_style} src={this.state.api_url_image + this.state.skills.image} alt="overview-thumb" />
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="overview-four-content sp-align ml-lg-15-xl">
-                                <h2 className="title">{this.state.skills.skills_name}</h2>
-                                <p>{this.state.skills.descriptions}</p>
+                            <div className="col-lg-6">
+                                <div className="overview-four-content sp-align ml-lg-15-xl">
+                                    <h2 className="title">{this.state.skills.skills_name}</h2>
+                                    <p>{this.state.skills.descriptions}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <sections>
+                    <div class="section-header">
+                        <h4 class="title">Technical skills which i workd on.</h4>
+                        <ProgressBar variant="success" now={this.state.skills.capability} label={`${this.state.skills.capability}%`} />
+                    </div>
+                </sections>
+            </React.Fragment>
         );
     }
 }

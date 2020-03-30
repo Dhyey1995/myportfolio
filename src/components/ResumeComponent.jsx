@@ -119,7 +119,9 @@ const ResumeComponent = (props) => {
                                 </div>
                                 <ul>
                                     <li>
-                                        <button className="btn btn-block btn-success"> Download </button>
+                                        <a href="https://angelajeff.in/portfolio_api/storage/app/dhyey_resume.docx">
+                                            <button className="btn btn-block btn-success"> Download </button>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
