@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import Axios from 'axios';
+import Loading from '../pages/Loading';
 
 export default class WhatWeDo extends Component {
     constructor(props) {
         super(props);
         this.state = {
             skills: [],
+            loading_status: false,
             api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
         }
     }
     componentDidMount() {
+        this.setState({ loading_status: true });
         Axios.get('https://angelajeff.in/portfolio_api/api/skill/limit-' + this.props.limit)
             .then(response => {
                 this.setState({
                     skills: response.data.data,
                 });
+                this.setState({ loading_status: false });
             });
     }
     render() {
@@ -31,6 +35,7 @@ export default class WhatWeDo extends Component {
                         <h2 className="title">what I do</h2>
                     </div>
                     <div className="row justify-content-center mb-30-none">
+                        <Loading loading_status={this.state.loading_status} />
                         {this.state.skills.map((skills_data, index) => (
                             <div className="col-sm-10 col-md-6 col-lg-4" key={index}>
                                 <div className="case-item">

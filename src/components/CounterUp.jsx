@@ -11,7 +11,7 @@ export default class CounterUp extends Component {
                             <div className="counter-header">
                                 <i className="flaticon-call-center" />
                                 <h2 className="title">
-                                    <span className="counter">9</span>+
+                                    <span className="counter">9</span>
                                 </h2>
                             </div>
                             <p>Total projects</p>
@@ -21,7 +21,7 @@ export default class CounterUp extends Component {
                             <div className="counter-header">
                                 <i className="flaticon-happiness" />
                                 <h2 className="title">
-                                    <span className="counter">10</span>k
+                                    <span className="counter">12</span>
                                 </h2>
                             </div>
                             <p>Total skills</p>
