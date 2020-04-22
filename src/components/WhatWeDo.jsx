@@ -9,15 +9,15 @@ export default class WhatWeDo extends Component {
         this.state = {
             skills: [],
             loading_status: false,
-            api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
+            api_url_image: 'http://dhyeyrathod.rf.gd/api_project/',
         }
     }
     componentDidMount() {
         this.setState({ loading_status: true });
-        Axios.get('https://angelajeff.in/portfolio_api/api/skill/limit-' + this.props.limit)
+        Axios.get('http://dhyeyrathod.rf.gd/api_project/API/all_skill/' + this.props.limit)
             .then(response => {
-                this.setState({
-                    skills: response.data.data,
+                this.setState({ 
+                    skills: response.data.skills,
                 });
                 this.setState({ loading_status: false });
             });
@@ -40,6 +40,7 @@ export default class WhatWeDo extends Component {
                             <div className="col-sm-10 col-md-6 col-lg-4" key={index}>
                                 <div className="case-item">
                                     <div className="case-thumb">
+                                        {console.log(this.state.api_url_image + skills_data.image)}
                                         <NavLink to={`${skills_data.skills_name}/skills_details/${btoa(skills_data.id)}`}>
                                             <img style={image_style} src={this.state.api_url_image + skills_data.image} alt="case" />
                                         </NavLink>

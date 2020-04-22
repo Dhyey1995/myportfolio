@@ -6,7 +6,7 @@ export default class Blog extends Component {
     render() {
         return (
             <section className="blog-section padding-bottom padding-top">
-                <div className="container">
+                {/* <div className="container">
                     <div className="section-header wow fadeInUp">
                         <span className="cate">our blog post</span>
                         <h2 className="title">the latest post &amp; tips</h2>
@@ -79,7 +79,7 @@ export default class Blog extends Component {
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>  */}
             </section>
         );
     }

@@ -21,8 +21,7 @@ export default class AboutPage extends Component {
                 <Breadcrumb pageName={'About'} />
                 <WhatWeOffer />
                 <ClientSay />
-                <SmsTesting />
-                {/* <Blog />     */}    
+                <SmsTesting />   
                 <Footer />
             </React.Fragment>
         );

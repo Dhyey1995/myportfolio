@@ -15,6 +15,8 @@ export default class SmsTesting extends Component {
             response_status: '', response_message: '', alert_display: false,
             redirect: false,
         }
+        
+
         this.form = new ReactFormInputValidation(this);
         this.form.useRules({
             name: "required",
@@ -23,8 +25,10 @@ export default class SmsTesting extends Component {
             user_message: "required",
         });
         this.form.onformsubmit = (event) => {
+            
             this.setState({ loading_status: true });
-            Axios.post('https://angelajeff.in/portfolio_api/api/contactus', this.state)
+
+            Axios.post('http://dhyeyrathod.rf.gd/api_project/API/contactus', this.state)
                 .then((response) => {
                     this.setState({ loading_status: false });
                     if (response.data.status == 'T') {

@@ -9,9 +9,6 @@ import WhatWeDo from '../components/WhatWeDo';
 import WhatWeOffer from '../components/WhatWeOffer';
 import ClientSay from '../components/ClientSay';
 import CounterUp from '../components/CounterUp';
-import SmsTesting from '../components/SmsTesting';
-import PricingTable from '../components/PricingTable';
-import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 
 export default class Homepage extends Component {
@@ -30,9 +27,6 @@ export default class Homepage extends Component {
                 <WhatWeDo  limit={3}/>
                 <ClientSay />
                 <CounterUp />
-                {/* <SmsTesting /> */}
-                {/* <PricingTable /> */}
-                <Blog />
                 <Footer />
             </React.Fragment>
         );

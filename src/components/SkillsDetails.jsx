@@ -7,15 +7,15 @@ export default class SkillsDetails extends Component {
         super(props);
         this.state = {
             skills: [],
-            api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
+            api_url_image: 'http://dhyeyrathod.rf.gd/api_project/',
             skill_id: atob(this.props.skills_data.skill_id),
         }
     }
     componentDidMount() {
-        Axios.get('https://angelajeff.in/portfolio_api/api/skill/' + this.state.skill_id)
+        Axios.get('http://dhyeyrathod.rf.gd/api_project/API/skill_detail/' + this.state.skill_id)
             .then(response => {
                 this.setState({
-                    skills: response.data,
+                    skills: response.data.skills,
                 });
             });
     }
@@ -43,12 +43,12 @@ export default class SkillsDetails extends Component {
                         </div>
                     </div>
                 </section>
-                <sections>
-                    <div class="section-header">
-                        <h4 class="title">Technical skills which i workd on.</h4>
-                        <ProgressBar variant="success" now={this.state.skills.capability} label={`${this.state.skills.capability}%`} />
+                <section>
+                    <div className="section-header">
+                        <h4 className="title">Technical skills which i workd on.</h4>
+                        <ProgressBar variant="success" now={this.state.skills.lavel} label={`${this.state.skills.lavel}%`} />
                     </div>
-                </sections>
+                </section>
             </React.Fragment>
         );
     }

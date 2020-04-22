@@ -3,21 +3,22 @@ import Axios from 'axios';
 import { NavLink } from 'react-router-dom';
 import Loading from '../pages/Loading';
 
+
 export default class ProjectSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
             project: [],
             loading_status: false,
-            api_url_image: 'https://angelajeff.in/portfolio_api/storage/app/',
+            api_url_image: 'http://dhyeyrathod.rf.gd/api_project/',
         }
-    }
+    }   
     componentDidMount() {
         this.setState({ loading_status: true });
-        Axios.get('https://angelajeff.in/portfolio_api/api/project')
+        Axios.get('http://dhyeyrathod.rf.gd/api_project/API/all_project')
             .then(response => {
                 this.setState({
-                    project: response.data.data,
+                    project: response.data.projects,
                 });
                 this.setState({ loading_status: false });
             });
